@@ -1,7 +1,10 @@
 dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "package-name"
+    - ./gradlew dependencies
+    
 test:
   override:
     - ./gradlew assembleRelease
     - cp -r project-name/build/outputs $CIRCLE_ARTIFACTS
+
