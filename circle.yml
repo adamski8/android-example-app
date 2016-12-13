@@ -12,5 +12,5 @@ dependencies:
 
 test:
   override:
-    - ./gradlew assembleDebug
+    - ./gradlew assembleDebug -PdisablePreDex
     - cp -r app/build/outputs $CIRCLE_ARTIFACTS
