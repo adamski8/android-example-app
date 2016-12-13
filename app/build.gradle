@@ -63,6 +63,10 @@ android {
   dexOptions {
     javaMaxHeapSize "4g"
   }
+  lintOptions {
+    ignoreWarnings true
+    abortOnError false
+  }
 }
 
 dependencies {
