@@ -2,6 +2,7 @@ dependencies:
   pre:
     - echo y | android update sdk --no-ui --all --filter "package-name"
     - ./gradlew dependencies
+    - source setupArtifactoryCredentialsForCircleCI.sh && copyEnvVarsToGradleProperties
     
 test:
   override:
