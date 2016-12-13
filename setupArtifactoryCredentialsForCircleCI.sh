@@ -11,7 +11,7 @@ function copyEnvVarsToGradleProperties {
         touch $GRADLE_PROPERTIES
 
         echo "Writing artifactory_user and artifactory_password to gradle.properties..."
-        echo "artifactory_user=$artifactory_user" >> $GRADLE_PROPERTIES
-        echo "artifactory_password=$artifactory_password" >> $GRADLE_PROPERTIES
+        echo "artifactory_user=$artifactory_user
+        artifactory_password=$artifactory_password" >> $GRADLE_PROPERTIES
     fi
 }
