@@ -1,6 +1,6 @@
 machine:
   environment:
-    GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2g -XX:+HeapDumpOnOutOfMemoryError"'
+    GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx1500m -XX:+HeapDumpOnOutOfMemoryError"'
   java:
     version: oraclejdk8
 
