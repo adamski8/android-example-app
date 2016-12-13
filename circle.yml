@@ -1,7 +1,9 @@
 machine:
   environment:
     GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx3548m -XX:+HeapDumpOnOutOfMemoryError"'
-
+  java:
+    version: oraclejdk8
+    
 dependencies:
   pre:
     - source setupArtifactoryCredentialsForCircleCI.sh && copyEnvVarsToGradleProperties
