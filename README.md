@@ -1,5 +1,8 @@
 # Android Example App
 
+[![CircleCI](https://circleci.com/gh/adamski8/android-example-app/tree/master.svg?style=svg)](https://circleci.com/gh/adamski8/android-example-app/tree/master)
+[![Build Status](https://travis-ci.org/adamski8/android-example-app.svg?branch=master)](https://travis-ci.org/adamski8/android-example-app)
+
 The Android Example App is using the Onegini Android SDK to perform secure authentication and resource calls. Please have a look at the 
 [App developer quickstart](https://docs.onegini.com/app-developer-quickstart.html) if you want more information about how to get setup with this 
 example app.
