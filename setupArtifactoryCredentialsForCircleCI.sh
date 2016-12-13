@@ -8,7 +8,7 @@ function copyEnvVarsToGradleProperties {
         echo "Gradle Properties does not exist"
 
         echo "Creating Gradle Properties file..."
-        touch $GRADLE_PROPERTIES
+        sudo touch $GRADLE_PROPERTIES
 
         echo "Writing artifactory_user and artifactory_password to gradle.properties..."
         echo "artifactory_user=$artifactory_user
